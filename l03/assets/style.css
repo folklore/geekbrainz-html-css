@@ -1,0 +1,65 @@
+a {  
+  text-decoration: none;
+}
+
+.menu a {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu a:hover {
+  color: #F25822;
+}
+
+.menu a.active {
+  color: #F25822;
+}
+
+.heading {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.slogan {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.start {
+  border-radius: 50px;
+  background: #F25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  width: 140px;
+  padding: 20px;
+  text-align: center;
+}
+
+.start a {
+  color: #FFF;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.watch {
+  color: #AAA;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
