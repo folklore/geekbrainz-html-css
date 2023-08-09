@@ -1,0 +1,103 @@
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
+
+a {  
+  text-decoration: none;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 6em;
+}
+
+.header .menu {
+  width: 100%;
+  text-align: center;
+}
+
+.header .menu a {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header .menu a:hover {
+  color: #F25822;
+}
+
+.header .menu a.active {
+  color: #F25822;
+}
+
+.content {
+  display: flex;
+}
+
+.content .text, .content .picture {
+  width:  50%;
+}
+
+.content .heading {
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.content .slogan {
+  color: #888;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content .control {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.content .start {
+  border-radius: 50px;
+  background: #F25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  width: 140px;
+  padding: 20px;
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
+}
+
+.content .watch {
+  color: #AAA;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  height: 6em;
+  display: flex;
+  align-items: center;
+}
+
+.footer .brands {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
