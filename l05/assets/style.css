@@ -1,0 +1,251 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url('fonts/Gilroy-Bold.woff2');
+}
+
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url('fonts/Gilroy-SemiBold.woff2');
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url('fonts/Gilroy-Medium.woff2');
+}
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url('fonts/Gilroy-Regular.woff2');
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+.container {
+  margin-bottom: 48px;
+}
+
+a {  
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 6em;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.header .menu a {
+  color: #000;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header .menu a:hover {
+  color: #F25822;
+}
+
+.header .menu a.active {
+  color: #F25822;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .picture {
+  display: block;
+}
+
+.content .text, .content .picture {
+  width: 590px;
+}
+
+.content .heading {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.content .slogan {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content .control {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.button {
+  color: #fff;
+  font-family: Gilroy-Bold;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  width: 144px;
+  padding: 24px;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
+}
+
+.content .watch {
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.brands {
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.profits .card {
+  display: grid;
+  gap: 16px;
+  padding: 40px 30px;
+}
+
+.profits .card:hover {
+  background-color: #fff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.profits .card .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.profits .card .text {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.profits .card a {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.products {
+  text-align: center;
+}
+
+.products .heading {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.products .prompt {
+  color: #666;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 24px 0 48px;
+}
+
+.products .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.products .cards .card {
+  display: grid;
+  gap: 16px;
+  padding-bottom: 48px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.products .cards .card .title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 24px; 
+}
+
+.products .cards .card .text {
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0 24px;
+}
+
+.products .cards .card .button {
+  margin: 0 auto;
+}
+
+.products .cards .card:hover {
+  background-color: #fff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
