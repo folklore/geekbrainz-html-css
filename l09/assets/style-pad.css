@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner .right .brand {
+    margin-left: 32px;
+  }
+
+  .banner .right .brand .title {
+    font-size: 44px;
+  }
+
+  .banner .right .brand .subtitle {
+    font-size: 24px;
+  }
+
+  .categories {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 168px 116px;
+    gap: 16px;
+    margin: 32px 16px 48px;
+  }
+
+  .showcase {
+    margin-bottom: 24px;
+  }
+
+  .showcase .goods {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 24px 16px 24px;
+  }
+
+  .advantages {
+    padding: 64px 0;
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe {
+    padding: 64px 0;
+    grid-template-columns: 1fr;
+  }
+}

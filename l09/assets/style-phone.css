@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+  header .menu {
+    padding: 0 16px;
+  }
+
+  footer .menu {
+    flex-direction: column-reverse;
+  }
+
+  header .menu .buttons .account, .header .menu .buttons .cart {
+    display: none;
+  }
+
+  .banner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner .left {
+    display: none;
+  }
+
+  .banner .right {
+    justify-content: center;
+  }
+
+  .banner .right .brand {
+    margin-left: 0;
+  }
+
+  .banner .right .brand .title {
+    font-size: 38px;
+  }
+
+  .banner .right .brand .subtitle {
+    font-size: 20px;
+  }
+
+  .categories {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    gap: 8px;
+    margin: 32px 8px 48px;
+  }
+
+  .categories .category.widely {
+    grid-column: span 1;
+    height: 112px;
+  }
+
+  .categories .category.widely img {
+    width: auto;
+    height: 100%;
+  }
+
+  .showcase {
+    margin-bottom: 24px;
+  }
+
+  .showcase .goods {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin: 24px 8px 24px;
+  }
+
+  .advantages {
+    padding: 32px 0;
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe {
+    padding: 32px 0;
+    grid-template-columns: 1fr;
+  }
+
+  footer .menu .socials {
+    margin-bottom: 48px;
+  }
+}
