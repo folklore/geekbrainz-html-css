@@ -3,7 +3,7 @@
 - [jigsaw.w3.org](https://jigsaw.w3.org/css-validator/validator.html.ru)
 - [Html5 Outliner](https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo)
 - [SVGomg](https://jakearchibald.github.io/svgomg/)
-- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi/related?hl=ru)
+- [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi/related?hl=fr)
 - [TransFonter](https://transfonter.org/)
 - [CloudConvert](https://cloudconvert.com/)
 - [Vercel](https://vercel.com/)
